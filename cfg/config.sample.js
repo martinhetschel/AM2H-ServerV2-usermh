@@ -11,7 +11,10 @@ var config = {
     // WebServerConfig
     serverDocRoot : "mh",
     
-    // Database Server config
+    // dbConnector : "mySqlDbConnector",
+    dbConnector : "influxDbConnector",
+
+    // MySQL Database Server config
     dbServer   : "mqtt://server-mh.fritz.box",
     dbUser     : 'pi',
     dbPassword : 'XXX',
